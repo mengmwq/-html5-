@@ -1,0 +1,80 @@
+@import "common";
+@fonts: 50;
+
+body {
+  background: #ccc;
+  width: 15rem;
+  min-width: 320px;
+
+  overflow-x: hidden;
+  margin: 0 auto;
+  color: #666;
+  font-family: -apple-system, Helvetica, sans-serif;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100% !important;
+}
+.search-content {
+  position: fixed;
+  height: (88rem / @fonts);
+  width: 15rem;
+  background: rgb(230, 0, 13);
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+
+  .classfly {
+    width: 0.88rem;
+    height: 1.4rem;
+    margin: 0.22rem 0.5rem 0.14rem 0.48rem;
+    background: url(../upload/menu.png) no-repeat;
+    background-size: 0.88rem 1.4rem;
+  }
+  .search {
+    flex: 1;
+    width: 100%;
+    input {
+      height: 1.32rem;
+      border-radius: 0.66rem;
+      border: none;
+      background: #fff;
+      margin-top: 0.24rem;
+      outline: none;
+      font-size: 0.5rem;
+      width: 100%;
+      text-indent: 0.4rem;
+    }
+  }
+  .login {
+    width: 0.88rem;
+    height: 1.4rem;
+    margin: 0.2rem;
+    background: url(../upload/user.png) no-repeat;
+    background-size: 0.88rem 1.4rem;
+  }
+}
+.lunbo {
+  margin-top: 1.76rem;
+  img {
+    width: 100%;
+  }
+}
+
+nav {
+  text-align: center;
+  a {
+    width: 3rem;
+    height: 2.8rem;
+    float: left;
+    img {
+      display: block;
+      width: 1.64rem;
+      height: 1.64rem;
+      margin: .2rem auto;
+    }
+    span {
+      font-size: 0.5rem;
+      color: #333;
+    }
+  }
+}

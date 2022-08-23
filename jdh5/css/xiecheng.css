@@ -1,0 +1,231 @@
+body {
+
+  width: 100%;
+  min-width: 320px;
+  max-width: 540px;
+  overflow-x: hidden;
+  margin: 0 auto;
+  color: #666;
+  font-family: -apple-system, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100% !important;
+  box-sizing: border-box;
+}
+.search-index{
+ position: fixed;
+ width: 100%;
+ display: flex;
+ text-align: center;
+ align-items: center;
+ top: 0;
+ left: 50%;
+ transform:translate(-50%);
+ height: 44px;
+ min-width: 320px;
+ max-width: 540px;
+
+ border-radius: 0px;
+ -webkit-border-radius: 0px;
+ -moz-border-radius: 0px;
+ -ms-border-radius: 0px;
+ -o-border-radius: 0px;
+ -webkit-transform:translate(-50%);
+ -moz-transform:translate(-50%);
+ -ms-transform:translate(-50%);
+ -o-transform:translate(-50%);
+ border-bottom: 1px solid #ccc;
+ border-top:1px solid #ccc;
+ background: #f6f6f6;
+}
+.search{
+  flex:1;
+  height: 26px;
+  border: 1px solid #ccc;
+  margin: 6px 10px ;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  color: #ccc;
+  line-height: 26px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+.user{
+  width: 44px;
+  height: 44px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 44px;
+  
+
+  
+}
+a{
+  text-decoration: none;
+}
+.search::before{
+  background: url(../images/bg.png) no-repeat;
+  display: block;
+  width: 18px;
+  height: 15px;
+  position:absolute;
+  content: "";
+  background-position: -80px 0;
+  background-size: 200px;
+  z-index: 1;
+  margin-top: 5px ;
+  box-sizing: border-box;  
+}
+.lunbo img{
+  width: 100%;
+  margin-top: 44px;
+}
+.nav{
+  height: 60px;
+  background:palegoldenrod;
+  margin: 3px 4px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  display: flex;
+ 
+  justify-content: space-around;
+ 
+  align-items: center;
+}
+.nav li{
+  flex:1
+}
+.nav  a{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+.nav li img{
+  width: 32px;
+  height: 32px;
+}
+.menu{
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  margin: 0 4px 3px ;
+  overflow: hidden;
+}
+.menu-content{
+  height: 88px;
+  background: -webkit-linear-gradient(180deg,#fa5956,#fb8650);
+  display: flex;
+  box-sizing: border-box;
+}
+
+.menu-content:nth-child(2){
+  margin: 2px 0;
+   background: -webkit-linear-gradient(180deg,#3c83fa,#50b2fa);
+}
+.menu-content:nth-child(3){
+
+   background: -webkit-linear-gradient(180deg,#2fc3b6,#52d9b3);
+}
+.menu-items{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+ 
+}
+.menu-items:nth-child(-n+2){
+  border-right: 1px solid #fff;
+}
+.menu-items-ts{
+  flex: 1;
+  text-align: center;
+  line-height: 44px;
+  color: #fff;
+  font-size: 14px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .2);
+
+}
+.menu-items-ts:nth-child(1){
+  border-bottom: 1px solid #fff;
+}
+
+.toobar{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  text-align: center;
+  background:#bfe762;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  margin: 0 4px;
+  padding: 4px 0;
+}
+.toobar a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.toobar a img{
+  width: 32px;
+  height: 32px;
+}
+.toobar li{
+   width: 20%;
+ 
+  
+}
+
+.sales-box{
+  background: #fff;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin: 4px;
+}
+
+.sales-hd{
+  display: flex;
+  justify-content: space-between;
+  height: 44px;
+  align-items: center;
+ 
+ 
+}
+.sales-hd .sales-hd-left img{
+  width: 80px;
+}
+.sales-hd .sales-hd-right{
+  background: -webkit-linear-gradient(180deg,#fa5956,#fb8650);
+  color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 5px 8px;
+  margin-right: 3px;
+}
+.row-r{
+  display: flex;
+}
+.row-r a{
+  flex:1;
+  
+}
+.row-r a img{
+  width: 100%;
+}
+.row-r a:nth-child(1){
+  border-right: 1px solid #eee;
+}

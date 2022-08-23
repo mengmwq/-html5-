@@ -1,0 +1,63 @@
+body {
+  background: #ccc;
+  /* //划分10等分 */
+  width: 10rem;
+  
+  max-width: 750px;
+  overflow-x: hidden;
+  margin: 0 auto;
+  color: #666;
+  font-family: -apple-system, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100% !important;
+}
+@media screen and (min-width : 750px) {
+    html{
+        font-size: 75px!important;
+    }
+    
+}
+.search-content {
+  position: fixed;
+  display: flex;
+  width: 10rem;
+  height: 1.1733rem;
+  background: rgb(230, 0, 13);
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+.search-content .classfly {
+  width: .5867rem;
+  height:.9333rem;
+  margin: .1467rem .3333rem .1333rem .32rem;
+  background: url(../upload/menu.png) no-repeat;
+  background-size: .5867rem .9333rem;
+}
+.search-content .search {
+  flex: 1;
+  width: 100%;
+}
+.search-content .search input {
+  height: .88rem;
+  border-radius: .6667rem;
+  border: none;
+  background: #fff;
+  margin-top: .16rem;
+  outline: none;
+  font-size: 0.5rem;
+  width: 100%;
+  text-indent: 0.4rem;
+  -webkit-border-radius: .6667rem;
+  -moz-border-radius: .6667rem;
+  -ms-border-radius: .6667rem;
+  -o-border-radius: .6667rem;
+}
+.search-content .login {
+  width: 0.48rem;
+  height:.8rem;
+  margin:.2rem;
+  background: url(../upload/user.png) no-repeat;
+  background-size: 0.48rem .8rem;
+}

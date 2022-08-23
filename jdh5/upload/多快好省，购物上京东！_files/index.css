@@ -1,0 +1,175 @@
+body {
+  background: #ccc;
+  width: 100%;
+  min-width: 320px;
+  max-width: 1080px;
+  overflow-x: hidden;
+  margin: 0 auto;
+  color: #666;
+  font-family: -apple-system, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100% !important;
+}
+.app {
+  height: 45px;
+}
+.app ul li {
+  float: left;
+  background-color: #333;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+}
+.app ul li:nth-child(1) {
+  width: 8%;
+}
+.app ul li:nth-child(1) img {
+  width: 20px;
+  vertical-align: middle;
+}
+.app ul li:nth-child(2) {
+  width: 10%;
+}
+.app ul li:nth-child(2) img {
+  vertical-align: middle;
+  width: 20px;
+}
+.app ul li:nth-child(3) {
+  width: 57%;
+}
+.app ul li:nth-child(4) {
+  width: 25%;
+  background: #f23030;
+}
+
+.m_common_container {
+  width: 100%;
+  height: 44px;
+  position: fixed;
+  text-align: center;
+  line-height: 44px;
+  overflow: hidden;
+  color:#fff;
+  min-width: 320px;
+  max-width: 1080px;
+
+}
+
+
+.m_common_container .left-box {
+  width: 40px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 44px;
+}
+.m_common_container .left-box img{
+      width: 20px;
+  vertical-align: middle;
+}
+.m_common_container .content-box {
+   height: 30px;
+   margin:  0 50px;
+   border-radius:10px ;
+   -webkit-border-radius:10px ;
+   -moz-border-radius:10px ;
+   -ms-border-radius:10px ;
+   -o-border-radius:10px ;
+   margin-top: 7px;
+   background: #fff;
+   position: relative;
+   line-height: 30px;
+
+}
+.m_common_container .content-box .jd-icon{
+    width: 20px;
+    height: 15px;
+    position:absolute;
+    background: url(../images/logo.png) no-repeat ;
+    top:10px;
+    left: 10px;
+    background-size: 20px 15px;
+
+}
+.m_common_container .content-box .jd-icon::after{
+    content: "";
+    position: absolute;
+    border-right: 1px solid #ddd;
+    top: 0;
+    left: 26px;
+    height: 16px;
+    
+    
+
+}
+
+.m_common_container .content-box .jd-header-icon-fdj{
+    background: url(../images/bg.png) no-repeat;
+    display: block;
+    width: 18px;
+    height: 15px;
+    position: absolute;
+    background-position: -80px 0;
+    background-size: 200px;
+ 
+    z-index: 1;
+    top:9px;
+    left: 43px;
+}
+.m_common_container .right-box {
+  width: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+   height: 44px;
+}
+.jd-header-search-input{
+    border: none;
+    
+}
+.jd-header-search-input input{
+    border: 0;
+    background: 0 0;
+    font-size: 12px;
+    color: #232326;
+    box-sizing: border-box;
+   
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+   
+}
+input:focus{
+   outline: none;
+ }
+.main-content  .slider img{
+     width: 100%;
+ }
+ .floor a{
+    float: left;
+    width: 20%;
+    text-align: center;
+     font-size: 12px;
+     text-decoration: none;
+     color: #000;
+    
+    
+}
+.floor a img{
+    width: 40px;
+}
+.news{
+    height: 300px;
+}
+.news a:nth-child(1){
+    width: 50%;
+    background: pink;
+   
+}
+.news a:nth-child(2),.news a:nth-child(3){
+    width: 25%;
+    background: cadetblue
+}
